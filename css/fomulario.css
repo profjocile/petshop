@@ -1,0 +1,54 @@
+form {
+  font-family: Gotham, “Helvetica Neue”, Helvetica, Arial, “sans-serif”;
+}
+
+fieldset {
+  margin-top: 10px;
+  border: 2px solid rgba(31, 50, 112, 0.3);
+  padding-left: 10px;
+}
+
+legend {
+  font-weight: bolder;
+  padding: 5px;
+  color: darkblue;
+  font-size: small;
+}
+
+p {
+  line-height: 40px;
+  margin: 0;
+  padding: 2px;
+}
+
+label {
+  width: 8%;
+  display: block;
+  float: left;
+  text-align: right;
+  margin-right: 5px;
+  padding: 2px;
+}
+
+input {
+  border: none;
+  width: 85%;
+  padding: 7px;
+  border-bottom: 2px solid rgba(31, 50, 112, 0.3);
+  background-color: rgba(31, 50, 112, 0.03);
+}
+
+.radio-group {    
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+  }
+
+  .radio-group label {
+    margin: 0; /* Remove margens padrão */
+  }
+
+  .radio-group input[type="radio"] {
+    margin-left: 0px; /* Espaçamento entre o botão e o texto */
+  }
